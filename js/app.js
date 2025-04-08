@@ -2,13 +2,24 @@ function CriarMensagem(){
     const mensagem = document.getElementById("mensagem-valor").value;
     const mensagemtext = document.getElementById("text-msg");
 
-  // Cria um novo parágrafo e adiciona ao container, sem apagar o anterior
   mensagemtext.innerHTML += `<p>${mensagem}</p>
                         <br/>
                                                 `;
-
-  // Limpa o campo de texto depois de enviar
   document.getElementById("mensagem-valor").value = "";
 }
 const btnEnviar = document.getElementById("enviar");
 btnEnviar.addEventListener("click",CriarMensagem);
+
+function CriarConversa(){
+    const conversa = document.getElementById("msg");
+ 
+    conversa.innerHTML += `  <section id="msg">
+                <div class="conteudo-preview">
+                    <div id="perfil">
+                    </div>
+                    <p id="preview-msg">Retorno Mensagem de Teste</p>
+                </div>
+            </section>`
+}
+const btnAdicionar = document.getElementById("adicionar");
+btnAdicionar.addEventListener("click",CriarConversa);

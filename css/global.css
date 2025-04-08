@@ -70,6 +70,10 @@ b{
     width: 50%;
     height: 88%;
     background: none;
+    display: grid;
+    justify-items: center;
+    line-height: 3em; 
+    overflow-y:scroll;
 }
 .campo-msg{
     display: grid;
@@ -80,10 +84,19 @@ b{
 #msg{
     width: 400px;
     height: 50px;
-    margin: 20px;
     border: none;
     border-radius: 5px;
     background-color: var(--cor-mensagem-lida);
+    display: grid;
+    gap: 10px;
+}
+#msg:hover{
+    background-color:#202020;
+    transition: 1s;
+}
+.conteudo-preview{
+    width: 400px;
+    height: 50px;
     display: flex;
     align-items: center;
     color: var(--cor-secundaria);
@@ -117,9 +130,10 @@ b{
 input{
     background: none;
     border: 1px solid var(--cor-mensagem-lida);
-    width: 420px;
+    width: 400px;
     height: 40px;
-    border-radius: 5px
+    border-radius: 5px;
+    margin: 0px 0px 0px 30px;
 }
 input::placeholder{
     color: var(--cor-primaria);
