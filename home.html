@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Links CSS & JS-->
+    <link rel="stylesheet" href="./css/global.css">
+    <script src="./js/app.js"></script>
+
+    <!--Links Fonts &  Icones-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9b100b8313.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--Card Container-->
+    <section class="container-chat">
+        <!--Card Top-chat-->
+        <div class="top-chat">
+            <ul>
+                <li>Olá,<b> Felipe Grigolo</b></li>
+            </ul>
+            <ul>
+                <li><i class="fa-solid fa-paperclip"></i></li>
+                <li><i class="fa-solid fa-trash"></i> </li>
+                <li><i class="fa-solid fa-gear"></i></li>
+            </ul>
+        </div>
+        <!--Card Menu e Campo-->
+        <div class="cont-menu">
+        <!--Card Menu Lateral-->
+        <div class="menu-chat-lateral">
+            <section id="msg">
+                <div id="perfil">
+                </div>
+                <p id="preview-msg">Retorno Mensagem de Teste</p>
+            </section>
+        </div>
+          <!--Card Campo Mensagem-->
+        <div class="campo-msg"> 
+            <p id="text-msg"></p>
+            
+            <section class="action-msg">
+                <input type="text" placeholder="Insira sua Mensagem" id="mensagem-valor">
+                <button id="enviar" onclick="CriarMensagem()"><i class="fa-solid fa-paper-plane"></i></button>
+            </section>
+        </div>
+     
+        </div>
+
+
+    </section>
+</body>
+</html>
