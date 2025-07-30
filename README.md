@@ -16,6 +16,5 @@ O WebChat é um projeto pessoal, criado com o intuido de buscar conhecimentos em
 - Versão Beta da aplicação, sempre buscando ajustar conflitos e demais problemas que apareçam.
 
 <div align="center">
-   Caso tenha duvidas sobre esse projeto, pode entrar em contato pelas redes sociais abaixo.
-   [![Linkedin: Ellen](https://img.shields.io/badge/-ellendias-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/devellenias/)]()
+   Espero que tenha gostado do projeto.
 </div>
