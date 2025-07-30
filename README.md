@@ -4,7 +4,7 @@
   <strong>Felipe Grigolo Projetos</strong>
 </div>
 <div align="center">
-  Projeto Desenvolvido em Html,Css,js,Php e muito café.
+  Projeto Desenvolvido em HTML,CSS,JS,PHP e muito café.
 </div>
 
 ## 🚀 Sobre o Projeto
